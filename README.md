@@ -1,5 +1,5 @@
-# CS312 - Mobile Computing 
--
+# **CS312 - Mobile Computing**
+
 This repository contains the laboratory activities for the **CS312 - Mobile Computing** course. Each activity focuses on the implementation and application of different mobile development features taught throughout the course, using both Android (Java) and iOS (Swift) platforms. The first three activities have been developed for both platforms, while the remaining activities are iOS-based, showcasing various functionalities such as Bluetooth transfer, infrared communication, Firebase integration, and more.
 ---
 
