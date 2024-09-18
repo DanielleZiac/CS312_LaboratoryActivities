@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432435193301",
+    "project_id": "demo2-registration",
+    "storage_bucket": "demo2-registration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432435193301:android:45f2df26ae6a29508f095c",
+        "android_client_info": {
+          "package_name": "com.example.demo2_registration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfcv0If4RUEzNpCXGWujUmmaAqQQkC11A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
