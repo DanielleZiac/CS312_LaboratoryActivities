@@ -19,13 +19,13 @@ The first three activities have been developed for both platforms, while the rem
 - [x] **Hello World**
 - [x] **Registration**
 - [x] **Login**
-- [ ] **Calculator App**
-- [ ] **Infrared Communication**
-- [ ] **Bluetooth Transfer**
-- [ ] **Identify Bluetooth Device in Wireless Transfer**
-- [ ] **Country List View**
-- [ ] **Firebase Application**
-- [ ] **Final Project**
+- [x] **Calculator App**
+- [x] **Infrared Communication**
+- [x] **Bluetooth Transfer**
+- [x] **Identify Bluetooth Device in Wireless Transfer**
+- [x] **Country List View**
+- [x] **Firebase Application**
+- [x] **Final Project**
 
 ---
 
