@@ -5,6 +5,7 @@
 //  Created by Danielle Ziac Abril on 9/17/24.
 //
 
+
 import SwiftUI
 
 struct AuthenticationView: View {
@@ -12,28 +13,48 @@ struct AuthenticationView: View {
     @Binding var showSignInView: Bool
      
     var body: some View {
-        VStack {
-            NavigationLink {
-                SigninEmailView(showSignInView: $showSignInView)
-            } label: {
-                Text("Sign In")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .frame(height: 55)
-                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                    .background(Color.blue)
-                    .cornerRadius(10)
-                
+            ZStack {
+                Image("demo3_bg")
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
+
+                VStack {
+                    Spacer(minLength: -100)
+                    Text("Hello World!")
+                        .font(.system(size: 20, weight: .heavy))
+                        .foregroundColor(.white)
+                    Spacer(minLength: 420)
+                    Button(action: {
+                        showSignInView = false
+                    }) {
+                        Text("Sign In")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(height: 55)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.blue)
+                            .cornerRadius(10)
+                    }
+                    Spacer()
+                }
+                .padding()
             }
-            Spacer()
+            .navigationTitle("") // Remove default title
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Get Started")
+                    .font(.system(size: 50, weight: .heavy))
+                    .foregroundColor(.white)
+                    .padding(.top, 200)
+                }
+            }
         }
-        .padding()
-        .navigationTitle("Sign In")
     }
-}
 
 #Preview {
     NavigationStack {
-        AuthenticationView(showSignInView: .constant(false))
+        AuthenticationView(showSignInView: .constant(true))
     }
 }
